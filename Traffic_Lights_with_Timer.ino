@@ -81,7 +81,7 @@ void countdown_from_8()
   delay(1000);//wait for a second
 }
 
-void digital_0(void) // display 1 to the 7-segment
+void digital_0(void) // display 0 to the 7-segment
 {
   for(int j = 4;j <= 10;j++)
   digitalWrite(j,HIGH);
